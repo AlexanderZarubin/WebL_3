@@ -90,13 +90,41 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+#input__city{
+    border: 2px solid red;
+    box-shadow: 1px 1px 10px rgba(255,0,0, 0.2);
+    border-radius: 20px;
+    padding: 1px 10px;
+}
+#input__date{
+    border: 2px solid green;
+    box-shadow: 1px 1px 10px rgba(0,255,0, 0.2);
+    border-radius: 20px;
+    padding: 1px 10px;
+}
+#input__amount{
+    border: 2px solid red;
+    box-shadow: 1px 1px 10px rgba(255,0,0, 0.2);
+    border-radius: 20px;
+    padding: 1px 10px;
+}
+#add__date{
+    border: 2px solid green;
+    box-shadow: 1px 1px 10px rgba(0,255,0, 0.2);
+    border-radius: 20px;
+    padding: 1px 10px;
+}
 /*IMG*/
 .IMG__size{
     width: 24px;
 
 }
+.yes-no{
+    display: flex;
+}
 .IMG__no,.IMG__yes{
     display: none;
+    position: relative;
 }
 /*TEXT*/
 .Text1{

@@ -50,25 +50,31 @@
             <div class="popupF__body">
                 <form action="text" method="post" class="popuF__formF">
                     <p class="Text2">Город</p>
-                    <input type="text" placeholder="Москва" id="input__city">
-                    <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
-                    <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes"> 
+                    <input type="text" placeholder="Москва" id="input__city" required>
+                    <div class="yes-no">
+                        <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
+                        <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes"> 
+                    </div>
                 </form>
             </div>
             <div class="popupF__body">
                 <form action="text" method="post" class="popuF__formF">
                     <p class="Text2">Дата вылета</p>
-                    <input type="date" id="input__date" value="2022-04-20">
-                    <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
-                    <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes"> 
+                    <input type="date" id="input__date" value="2022-04-20" required>
+                    <div class="yes-no">
+                        <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
+                        <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes">
+                    </div> 
                 </form>
             </div>
             <div class="popupF__body">
                 <form action="text" method="post" class="popuF__formF">
                     <p class="Text2">Кол-во билетов</p>
-                    <input type="number" id="input__amount">
-                    <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
-                    <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes"> 
+                    <input type="number" id="input__amount" min="1" max="100" required>
+                    <div class="yes-no">
+                        <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
+                        <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes">
+                    </div> 
                 </form>
             </div>
             <div class="popupF__body right">
@@ -80,9 +86,11 @@
             <div class="popupF__body hidden__div second__date">
                 <form action="text" method="post" class="popuF__formF">
                     <p class="Text2">Дата прилета</p>
-                    <input type="date" id="add__date" value="2022-05-01">
-                    <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
-                    <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes"> 
+                    <input type="date" id="add__date" value="2022-05-01" required>
+                    <div class="yes-no">
+                        <img src="/img/no.png" alt="cross" class="IMG__size IMG__no"> 
+                        <img src="/img/yes.png" alt="cross" class="IMG__size IMG__yes">
+                    </div> 
                 </form>
             </div>
             <div class = "right">
