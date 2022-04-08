@@ -3,3 +3,123 @@
 ::before{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.vertical{
+    flex-direction: column;
+}
+#modal__button{
+    margin: 0;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.hidden__div{
+    display: none;
+}
+.popup__addGroup{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+.popupF{
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    transform: scale(1);
+    opacity: 1;
+}
+.popupF__close{
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    height: 52px;
+    width: 52px;
+    padding: 0;
+    border-radius: 28px;
+}
+.popupF__close:active{
+    height: 52px;
+    width: 52px;
+    border: solid black 2px;
+    padding: 0;
+    border-radius: 28px;
+}
+.popupF__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.popupF__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    max-width: 600px;
+    height: 500px;
+    padding: 30px;
+    color: #000;
+    background-color: #fff;
+    border: solid #000 6px;
+    border-radius: 30px;
+}
+.popuF__formF{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+    margin: 0px 50px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+/*IMG*/
+.IMG__size{
+    width: 24px;
+
+}
+.IMG__no,.IMG__yes{
+    display: none;
+}
+/*TEXT*/
+.Text1{
+    font-size: 30px;
+}
+.Text2{
+    width: 130px;
+}
+.Text3{
+    margin-top: 100px;
+}
+/*ScrollBar*/
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #18aaaa;
+}
+  
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
